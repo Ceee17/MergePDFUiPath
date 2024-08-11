@@ -1,0 +1,23 @@
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.backup
+
+# Ignore machine-specific settings
+*.local
+*.user
+
+# Ignore publish and build output
+/Publish
+/obj/
+/bin/
+
+# Ignore package dependencies (optional)
+/Dependencies
+
+# Ignore .vscode settings (if using Visual Studio Code)
+.vscode/
+
+# Ignore UiPath project settings
+.project.json
+.settings
